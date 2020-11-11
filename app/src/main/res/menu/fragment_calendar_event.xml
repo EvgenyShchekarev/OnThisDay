@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_event"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/new_event"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/get_calendar"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom|withText" />
+</menu>

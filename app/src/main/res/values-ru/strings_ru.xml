@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">В этот день</string>
+    <string name="day_of_week">День недели</string>
+    <string name="month">Месяц</string>
+    <string name="today">01</string>
+    <string name="year">Год</string>
+    <string name="to_events">К событиям</string>
+    <string name="on_your_this_day">В этот день у Вас</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="event_rating">Рейтинг:</string>
+    <string name="excellent">Отлично</string>
+    <string name="typical">Обычно</string>
+    <string name="bad">Плохо</string>
+    <string name="date_post">Дата/Время:</string>
+    <string name="new_event">Новое событие</string>
+    <string name="delete_event">Удалить</string>
+    <string name="save_event">Сохранить</string>
+    <string name="event">Cобытие</string>
+    <string name="events">Событий</string>
+    <string name="main_events">событий</string>
+    <string name="event_today">В этот день</string>
+    <string name="calendar">Календарь</string>
+    <string name="edit_event">Редактировать</string>
+    <string name="date_picker_title">Дата события:</string>
+    <string name="cancel">Отмена</string>
+    <string name="event_deletion_canceled">Удаление отменено</string>
+    <string name="event_deletion_completed">Событие удалено</string>
+    <string name="warning_message">Вы уверены, что хотите удалить этот фрагмент из памяти?
+    Вы его больше не сможете восстановить.</string>
+    <string name="show_subtitle">Количество событий</string>
+    <string name="call_to_action">Сегодня прекрасный день,
+        чтобы оставить воспоминания о нём.</string>
+    <string name="enter_key">Введите ключ</string>
+    <string name="registration">Регистрация</string>
+    <string name="forget_key">Забыли ключ?</string>
+    <string name="name">Имя</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="set_key">Установите ключ</string>
+    <string name="info_login_password_text_view">Логин и пароль необходимы для восстановления аккаунта</string>
+    <string name="restore_key">Для сброса ключа, нам понадобятся логин и пароль</string>
+    <string name="pin_not_correct">Не верный ключ</string>
+    <string name="text_bottom">Войдите в свою учётную запись</string>
+    <string name="date_for_register">Введите данные для регистрации</string>
+    <string name="login_and_password">Введите данные для входа</string>
+    <string name="share_event">Поделиться</string>
+    <string name="send_event_report">Отправить событие через</string>
+    <string name="sign_in">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="authorization">Авторизация</string>
+    <string name="profile">Профиль</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="save_profile">Сохранить профиль</string>
+    <string name="activation_failed">Активация не прошла</string>
+    <string name="incorrect_login_or_password">Не правильные логин или пароль</string>
+    <string name="loading">Загрузка...</string>
+    <string name="logout">Выход</string>
+    <string name="registration_successfully">Регистрация прошла успешно!</string>
+    <string name="reade_to_edit">Можно редактировать поля!</string>
+    <string name="update_successfully">Данные успешно обновлены!</string>
+    <string name="see_you_soon">До скорой встречи</string>
+    <string name="something_is_wrong">Что-то не так...</string>
+    <string name="hello">Привет,</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="old_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="list_clear">В этот день у Вас нет событий.</string>
+    <string name="empty_events">Этот день является пустой ячейкой в Вашей памяти.</string>
+    <string name="read_more">Читать дальше</string>
+    <string name="options">Опции</string>
+    <string name="change_photo">Сменить фото</string>
+    <string name="photo">Фото</string>
+    <string name="image_button">Добавить фотографию</string>
+    <string name="logo">Логотип</string>
+
+    <plurals name="subtitle_format" tools:ignore="MissingQuantity">
+        <item quantity="one">%1$d событие</item>
+        <item quantity="other">%1$d события</item>
+    </plurals>
+
+    <!-- Поделиться событием -->
+    <string name="event_report">Моё событие в это день\
+        Заголовок: %1$s\
+        Описание: %2$s\
+        Дата события: %3$s\
+        Отправлено с приложения «В это день»\
+        Скачать приложение с официального сайта: http://www.onthisday.com</string>
+</resources>

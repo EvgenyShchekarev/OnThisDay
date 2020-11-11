@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    style="@style/list_item_constraint_layout">
+
+    <LinearLayout
+        android:id="@+id/calendar_linear_layout"
+        style="@style/calendar_linear_layout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/calendar_image_view"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/calendar" />
+
+            <TextView
+                android:id="@+id/event_date_text_view"
+                style="@style/year_text_view"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/options_image_view"
+                style="@style/options_image"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/options" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/blue_line_view"
+        style="@style/blue_line_view"
+        app:layout_constraintTop_toBottomOf="@id/calendar_linear_layout"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/title_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/blue_line_view"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        style="@style/image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/title_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view"
+        android:contentDescription="@string/photo" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        style="@style/description_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_view" />
+
+    <ImageView
+        android:id="@+id/read_image_view"
+        style="@style/read_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/read_text_view"
+        app:layout_constraintTop_toBottomOf="@id/description_text_view"
+        android:contentDescription="@string/read_more" />
+
+    <TextView
+        android:id="@+id/read_text_view"
+        style="@style/read_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_text_view" />
+
+    <View
+        android:id="@+id/black_line_view"
+        style="@style/black_line_view"
+        android:background="#939393"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/read_text_view" />
+
+
+    <TextView
+        android:id="@+id/rate_text_view"
+        style="@style/rating_text_view"
+        app:layout_constraintStart_toStartOf="@id/black_line_view"
+        app:layout_constraintTop_toBottomOf="@id/black_line_view"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/event_rating"
+        style="@style/rating_image_view"
+        app:layout_constraintStart_toEndOf="@id/rate_text_view"
+        app:layout_constraintTop_toTopOf="@id/rate_text_view"
+        tools:ignore="RtlSymmetry"
+        android:contentDescription="@string/event_rating" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

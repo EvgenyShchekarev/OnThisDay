@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        style="@style/constraint_layout" >
+
+        <LinearLayout
+            android:id="@+id/calendar_linear_layout"
+            style="@style/calendar_linear_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                style="@style/calendar_image_view"
+                android:contentDescription="@string/calendar" />
+
+            <TextView
+                android:id="@+id/event_date_text_view"
+                style="@style/year_text_view"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_view"
+            style="@style/blue_line_view"
+            app:layout_constraintTop_toBottomOf="@id/calendar_linear_layout"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/title_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_view"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            style="@style/image_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/title_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/title_text_view"
+            android:contentDescription="@string/photo" />
+
+        <TextView
+            android:id="@+id/description_text_view"
+            style="@style/description_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_view" />
+
+        <TextView
+            android:id="@+id/rate_text_view"
+            style="@style/rating_text_view"
+            app:layout_constraintStart_toStartOf="@id/description_text_view"
+            app:layout_constraintTop_toBottomOf="@id/description_text_view"
+            tools:ignore="RtlSymmetry" />
+
+
+        <ImageView
+            android:id="@+id/event_rating"
+            style="@style/rating_image_view"
+            app:layout_constraintStart_toEndOf="@id/rate_text_view"
+            app:layout_constraintTop_toTopOf="@id/rate_text_view"
+            tools:ignore="RtlSymmetry"
+            android:contentDescription="@string/event_rating" />
+
+        <ImageButton
+            android:id="@+id/event_report"
+            android:src="@drawable/ic_action_share"
+            style="@style/image_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rate_text_view"
+            android:contentDescription="@string/share_event" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

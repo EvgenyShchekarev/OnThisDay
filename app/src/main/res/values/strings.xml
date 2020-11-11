@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">On this day</string>
+    <string name="day_of_week">Day Of Week</string>
+    <string name="month">Month</string>
+    <string name="today">01</string>
+    <string name="year">Year</string>
+    <string name="to_events">To events</string>
+    <string name="on_your_this_day">On this day you have</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="event_rating">Rating:</string>
+    <string name="excellent">Excellent</string>
+    <string name="typical">Typical</string>
+    <string name="bad">Bad</string>
+    <string name="date_post">Date/Time:</string>
+    <string name="new_event">New Event</string>
+    <string name="delete_event">Delete</string>
+    <string name="save_event">Save</string>
+    <string name="event">Event</string>
+    <string name="events">Events</string>
+    <string name="main_events">events</string>
+    <string name="event_today">On This Day</string>
+    <string name="calendar">Calendar</string>
+    <string name="edit_event">Edit</string>
+    <string name="date_picker_title">Date of event:</string>
+    <string name="cancel">Cancel</string>
+    <string name="event_deletion_canceled">Event deletion canceled</string>
+    <string name="event_deletion_completed">Event deletion completed</string>
+    <string name="warning_message">If you delete an event, it cannot be restored.
+        Are you sure you want to do this?</string>
+    <string name="show_subtitle">Show Count Events</string>
+    <string name="call_to_action">Today is a beautiful day to leave memories of him.</string>
+    <string name="enter_key">Enter Key</string>
+    <string name="registration">Registration</string>
+    <string name="forget_key">Forget Key?</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="birthday">Birth Date</string>
+    <string name="set_key">Set key</string>
+    <string name="info_login_password_text_view">Login and password are required to restore your account</string>
+    <string name="restore_key">To reset the key, we need a username and password</string>
+    <string name="pin_not_correct">Pin cod not correct</string>
+    <string name="text_bottom">Login to your account</string>
+    <string name="date_for_register">Enter data for Registration</string>
+    <string name="login_and_password">Enter your Email and password</string>
+    <string name="share_event">Share</string>
+    <string name="send_event_report">Send event report via</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="authorization">Authorization</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save</string>
+    <string name="activation_failed">Activation failed</string>
+    <string name="incorrect_login_or_password">Incorrect login or password</string>
+    <string name="loading">Loading…</string>
+    <string name="logout">Logout</string>
+    <string name="registration_successfully">Registration completed successfully!</string>
+    <string name="reade_to_edit">Fields are ready to edit!</string>
+    <string name="update_successfully">Data updated successfully!</string>
+    <string name="see_you_soon">See you soon</string>
+    <string name="something_is_wrong">Something is wrong…</string>
+    <string name="hello">Hi,</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="list_clear">You don\'t have any events on this day.</string>
+    <string name="empty_events">This day is an empty cell in your memory.</string>
+    <string name="read_more">Read more</string>
+    <string name="options">Options</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="photo">Photo</string>
+    <string name="image_button">Add Photo Image</string>
+    <string name="logo">Logo</string>
+
+    <plurals name="subtitle_format">
+        <item quantity="zero">%1$d events</item>
+        <item quantity="one">%1$d event</item>
+        <item quantity="other">%1$d events</item>
+    </plurals>
+
+    <plurals name="count_excellent_days">
+        <item quantity="other">%1$d</item>
+    </plurals>
+    <plurals name="count_typical_days">
+        <item quantity="other">%1$d</item>
+    </plurals>
+    <plurals name="count_bad_days">
+        <item quantity="other">%1$d</item>
+    </plurals>
+
+    <string name="event_report">My event today
+        Title: %1$s\
+        Description: %2$s\
+        Date event: %3$s\
+        Send from app «On This Day»\
+        Download app from official site: http://www.onthisday.ru</string>
+</resources>

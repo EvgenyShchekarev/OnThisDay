@@ -1,0 +1,251 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppThemeStart" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorPrimaryDark2</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppThemeStart.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppThemeStart.PopupOverlay" parent="Theme.AppCompat.Light" />
+
+    <!-- Base application theme. -->
+    <style name="AppThemeMain" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorPrimaryDark2</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="AppThemeMain.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppThemeMain.PopupOverlay" parent="Theme.AppCompat.Light" />
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <!--<item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="AppThemeLogin.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppThemeLogin.PopupOverlay" parent="Theme.AppCompat.Light" />
+
+    <!-- Base application theme. -->
+    <style name="AppThemeRegister" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeRegister.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppThemeRegister.PopupOverlay" parent="Theme.AppCompat.Light" />
+    
+    <style name="title_text_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:hint">@string/title</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:hint">@string/title</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+    <style name="description_text_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:hint">@string/description</item>
+        <item name="android:textColor">@color/colorDarkGrayText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="description_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:hint">@string/description</item>
+        <item name="android:textColor">@color/colorDarkGrayText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="calendar_image_view">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:src">@drawable/ic_calendar_list</item>
+        <item name="android:contentDescription">@string/calendar</item>
+    </style>
+
+    <style name="year_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">@string/year</item>
+        <item name="android:textColor">@color/colorPrimary2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="blue_line_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@color/colorPrimary2</item>
+    </style>
+
+    <style name="black_line_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@color/colorPrimary2</item>
+    </style>
+
+    <style name="rating_add_event_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/event_rating</item>
+        <item name="android:textColor">@color/colorDarkGrayText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="rating_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:text">@string/event_rating</item>
+        <item name="android:textColor">@color/colorDarkGrayText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="rating_image_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:src">@drawable/zero_stars</item>
+    </style>
+
+    <style name="calendar_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="image_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@color/colorPrimaryDark3</item>
+    </style>
+
+    <style name="scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="radio_group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="constraint_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@drawable/bg</item>
+    </style>
+
+    <style name="list_item_constraint_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/bg</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="options_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:src">@drawable/ic_more</item>
+        <item name="android:contentDescription">@string/options</item>
+    </style>
+
+    <style name="read_image">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+        <item name="android:src">@drawable/ic_read_more</item>
+    </style>
+
+    <style name="read_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/colorPrimary2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/linear_layout">
+
+        <LinearLayout
+            android:id="@+id/calendar_linear_layout"
+            style="@style/calendar_linear_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView style="@style/calendar_image_view"
+                android:contentDescription="@string/calendar" />
+
+            <TextView
+                android:id="@+id/event_date_text_view"
+                style="@style/year_text_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_view"
+            style="@style/blue_line_view"
+            app:layout_constraintTop_toBottomOf="@id/calendar_linear_layout" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/title_field"
+            style="@style/title_edit_text"
+            app:met_baseColor="#000"
+            app:met_errorColor="#ddaa00"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#b30d4d" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/description_field"
+            style="@style/description_edit_text"
+            app:met_baseColor="#000"
+            app:met_errorColor="#ddaa00"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#b30d4d" />
+
+        <ImageView
+            android:id="@+id/event_photo"
+            style="@style/image_view"
+            android:contentDescription="@string/photo" />
+
+        <ImageButton
+            android:id="@+id/event_image"
+            android:src="@drawable/ic_image"
+            style="@style/image_button"
+            android:contentDescription="@string/image_button" />
+
+        <TextView style="@style/rating_add_event_text_view" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            style="@style/radio_group" >
+
+            <RadioButton
+                android:id="@+id/event_excellent"
+                android:text="@string/excellent"
+                style="@style/radio_button" />
+
+            <RadioButton
+                android:id="@+id/event_typical"
+                android:text="@string/typical"
+                android:checked="true"
+                style="@style/radio_button" />
+
+            <RadioButton
+                android:id="@+id/event_bad"
+                android:text="@string/bad"
+                style="@style/radio_button" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</ScrollView>

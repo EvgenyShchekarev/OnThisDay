@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_event"
+        android:icon="@drawable/ic_add_circle"
+        android:title="@string/new_event"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/profile_user"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
